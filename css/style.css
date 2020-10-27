@@ -7,6 +7,11 @@
 nav {
   height: 100px;
   background-color: #2C3E50;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
 }
 nav a {
   line-height: 100px;
@@ -44,6 +49,7 @@ header {
   /* height: 600px; */
   background-color: #1ABC9C;
   color: white;
+  margin-top: 100px;
 }
 header .row {
   text-align: center;
