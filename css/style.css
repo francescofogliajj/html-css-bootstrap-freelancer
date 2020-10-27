@@ -46,7 +46,6 @@ nav li {
 
 
 header {
-  /* height: 600px; */
   background-color: #1ABC9C;
   color: white;
   margin-top: 100px;
@@ -79,7 +78,6 @@ header p {
 }
 
 #portfolio {
-  /* height: 1000px; */
   text-align: center;
 }
 #portfolio h2 {
@@ -149,7 +147,6 @@ header p {
 
 
 #contact-me {
-  /* height: 1500px; */
   text-align: center;
 }
 #contact-me h2 {
