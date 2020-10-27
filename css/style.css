@@ -133,13 +133,20 @@ header p {
   text-decoration: none;
   color: white;
   border: 1px solid white;
-  padding: 10px;
+  padding: 15px;
   border-radius: 5px;
 }
 #about a:hover {
   background-color: white;
   color: black;
 }
+#about i {
+  font-size: 20px;
+}
+#about span {
+  font-size: 20px;
+}
+
 
 #contact-me {
   height: 600px;
@@ -170,20 +177,42 @@ form {
 }
 
 #credits {
-  height: 300px;
   background-color: #2C3E50;
   color: white;
   text-align: center;
+}
+#credits h4 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+}
+#credits p {
+  font-size: 20px;
 }
 #credits li {
   list-style: none;
   display: inline-block;
 }
+#credits li > a {
+  text-decoration: none;
+  color: white;
+}
 #credits i {
   border: 1px solid white;
   border-radius: 50%;
-  font-size: 15px;
-  padding: 15px;
+  font-size: 20px;
+  padding: 20px;
+  width: 61.6px;
+}
+#credits i:hover {
+  background-color: white;
+  color: black;
+}
+#credits p > a {
+  color: #1ABC9C;
+}
+#credits p > a:hover {
+  color: #159A80;
 }
 
 footer {
