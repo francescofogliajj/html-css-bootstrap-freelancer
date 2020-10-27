@@ -8,69 +8,141 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- /Bootstrap CDN -->
 
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css" integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A==" crossorigin="anonymous" />
+    <!-- /font-awesome cdn -->
+
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Freelancer</title>
   </head>
   <body>
 
+    <nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-4 col-md-4">
+            <a id="start" href="#">Start Bootstrap</a>
+          </div>
+          <div id="menu" class="col-xs-6 col-sm-4 col-sm-offset-4 col-md-4 col-offset-md-4">
+            <ul>
+              <li>
+                <a class="menu" href="#">Portfolio</a>
+              </li>
+              <li>
+                <a class="menu" href="#">About</a>
+              </li>
+              <li>
+                <a class="menu" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <header>
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-4"></div>
-          <div class="col-sm-6 col-md-4 col-md-offset-4 col-lg-4 col-offset-lg-4"></div>
+          <img src="img/avataaars.svg" alt="avataaars.svg">
+          <h1>Start Bootstrap</h1>
+          <hr>
+          <i class="fas fa-star"></i>
+          <hr>
+          <p>Graphic Artist - Web Designer - Illustrator</p>
         </div>
       </div>
     </header>
 
-    <section  id="section-1">
-      <div class="container">
-        <div class="row">
-          <h1></h1>
-        </div>
-      </div>
-    </section>
+    <main>
 
-    <section id="section-2">
-      <div class="container">
-        <div class="row">
-          <h2></h2>
-          <div class="col-sm-12 col-md-6 col-lg-3"></div>
-          <div class="col-sm-12 col-md-6 col-lg-3"></div>
-          <div class="col-sm-12 col-md-6 col-lg-3"></div>
+      <section id="portfolio">
+        <div class="container">
+          <div class="row">
+            <h2>Portfolio</h2>
+            <hr>
+            <i class="fas fa-star"></i>
+            <hr>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-3"></div>
-          <div class="col-sm-12 col-md-6 col-lg-3"></div>
-          <div class="col-sm-12 col-md-6 col-lg-3"></div>
-        </div>
-      </div>
-    </section>
 
-    <section id="section-3">
-      <div class="container">
-        <div class="row">
-          <h2></h2>
-          <div class="col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1"></div>
-          <div class="col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1"></div>
-          <h3></h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <img src="img/cabin.png" alt="cabin.png" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <img src="img/cake.png" alt="cake.png" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <img src="img/circus.png" alt="circus.png" class="img-responsive">
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
 
-    <section id="section-4">
-      <div class="container">
-        <div class="row">
-          <h2></h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <img src="img/game.png" alt="game.png" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <img src="img/safe.png" alt="safe.png" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <img src="img/submarine.png" alt="submarine.png" class="img-responsive">
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section id="about">
+        <div class="container">
+
+          <div class="row">
+            <h2>About</h2>
+            <hr>
+            <i class="fas fa-star"></i>
+            <hr>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">
+              <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+            </div>
+            <div class="col-xs-10 col-sm-5 col-md-5">
+              <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+            </div>
+          </div>
+
+          <a href="#">
+            <i class="fas fa-download"></i>
+            <span>Download</span>
+          </a>
+
+        </div>
+      </section>
+
+      <section id="contact-me">
+        <div class="container">
+          <div class="row">
+            <h2>Contact Me</h2>
+            <hr>
+            <i class="fas fa-star"></i>
+            <hr>
+          </div>
+
+          
+
+        </div>
+      </section>
+
+    </main>
 
     <footer>
-      <div class="container">
+      <div class="contact-me">
         <div class="row">
-          <div class="col-sm-12 col-md-4 col-lg-4"></div>
-          <div class="col-sm-12 col-md-4 col-lg-4"></div>
-          <div class="col-sm-12 col-md-4 col-lg-4"></div>
+          <div class="col-xs-12 col-sm-4 col-md-4"></div>
+          <div class="col-xs-12 col-sm-4 col-md-4"></div>
+          <div class="col-xs-12 col-sm-4 col-md-4"></div>
         </div>
         <h3></h3>
       </div>

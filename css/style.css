@@ -1,26 +1,159 @@
-header {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
   height: 100px;
-  background-color: blue;
+  background-color: #2C3E50;
+}
+nav a {
+  line-height: 100px;
+  text-transform: uppercase;
+  color: white;
+}
+nav a:hover {
+  text-decoration: none;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+#start {
+  font-size: 25px;
+  font-weight: bold;
+}
+#start:hover {
+  color: white;
+}
+#menu {
+  text-align: right;
+}
+.menu {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 18px;
+}
+.menu:hover {
+  color: #1ABC9C;
 }
 
-#section-1 {
+
+header {
+  /* height: 600px; */
+  background-color: #1ABC9C;
+  color: white;
+}
+header .row {
+  text-align: center;
+}
+img {
+  height: 250px;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: bold;
+}
+header hr {
+  width: 200px;
+  border: 3px solid white;
+  border-radius: 2px;
+  display: inline-block;
+}
+header i {
+  margin: 0 30px;
+  vertical-align: super;
+  font-size: 30px;
+}
+header p {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+#portfolio {
+  /* height: 1000px; */
+  text-align: center;
+}
+#portfolio h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+}
+#portfolio hr {
+  width: 200px;
+  border: 3px solid black;
+  border-radius: 2px;
+  display: inline-block;
+}
+#portfolio i {
+  margin: 0 30px;
+  vertical-align: super;
+  font-size: 30px;
+}
+#portfolio img {
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+#about {
+  height: 350px;
+  background-color: #1ABC9C;
+  text-align: center;
+  color: white;
+}
+#about h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+}
+#about hr {
+  width: 200px;
+  border: 3px solid white;
+  border-radius: 2px;
+  display: inline-block;
+}
+#about .row i {
+  margin: 0 30px;
+  vertical-align: super;
+  font-size: 30px;
+}
+#about p {
+  text-align: left;
+  font-size: 20px;
+}
+#about a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+#about a:hover {
+  background-color: white;
+  color: black;
+}
+
+#contact-me {
   height: 600px;
-  background-color: green;
+  text-align: center;
 }
-
-#section-2 {
-  height: 600px;
-  background-color: beige;
+#contact-me h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
 }
-
-#section-3 {
-  height: 400px;
-  background-color: green;
+#contact-me hr {
+  width: 200px;
+  border: 3px solid black;
+  border-radius: 2px;
+  display: inline-block;
 }
-
-#section-4 {
-  height: 600px;
-  background-color: beige;
+#contact-me .row i {
+  margin: 0 30px;
+  vertical-align: super;
+  font-size: 30px;
 }
 
 footer {
