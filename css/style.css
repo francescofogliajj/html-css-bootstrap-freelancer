@@ -149,7 +149,7 @@ header p {
 
 
 #contact-me {
-  height: 600px;
+  height: 1500px;
   text-align: center;
 }
 #contact-me h2 {
@@ -168,18 +168,36 @@ header p {
   vertical-align: super;
   font-size: 30px;
 }
-form {
-  position: relative;
+.write {
+  height: 80px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid lightgrey;
 }
-.btn {
-  position: absolute;
-  left: 0;
+#write {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+}
+input[placeholder] {
+  color: black;
+  font-size: 20px;
+}
+textarea[placeholder] {
+  color: black;
+  font-size: 20px;
+  padding-top: 20px;
+}
+button {
   padding: 10px 20px;
   background-color: #1ABC9C;
   color: white;
   font-size: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 10px;
 }
-.btn:hover {
+button:hover {
   background-color: #159A80;
   color: white;
 }
