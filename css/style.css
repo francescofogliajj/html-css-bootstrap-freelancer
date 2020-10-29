@@ -54,6 +54,7 @@ header .row {
 }
 img {
   height: 250px;
+  margin-top: 50px;
 }
 h1 {
   text-transform: uppercase;
@@ -74,15 +75,18 @@ header i {
 header p {
   text-transform: uppercase;
   font-size: 25px;
+  margin-bottom: 50px;
 }
 
 #portfolio {
   text-align: center;
+  margin-bottom: 50px;
 }
 #portfolio h2 {
   text-transform: uppercase;
   font-size: 50px;
   font-weight: bold;
+  margin-top: 50px;
 }
 #portfolio hr {
   width: 200px;
@@ -101,7 +105,7 @@ header p {
 }
 
 #about {
-  height: 350px;
+  height: 400px;
   background-color: #1ABC9C;
   text-align: center;
   color: white;
@@ -110,6 +114,7 @@ header p {
   text-transform: uppercase;
   font-size: 50px;
   font-weight: bold;
+  margin-top: 50px;
 }
 #about hr {
   width: 200px;
@@ -151,6 +156,7 @@ header p {
   text-transform: uppercase;
   font-size: 50px;
   font-weight: bold;
+  margin-top: 50px;
 }
 #contact-me hr {
   width: 200px;
@@ -191,6 +197,7 @@ button {
   margin-top: 15px;
   margin-left: 15px;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 button:hover {
   background-color: #159A80;
@@ -206,9 +213,11 @@ button:hover {
   text-transform: uppercase;
   font-size: 25px;
   font-weight: bold;
+  margin-top: 50px;
 }
 #credits p {
   font-size: 20px;
+  margin-bottom: 50px;
 }
 #credits li {
   list-style: none;
@@ -237,12 +246,53 @@ button:hover {
 }
 
 footer {
-  height: 100px;
+  height: 80px;
   background-color: #1A252F;
   color: white;
   text-align: center;
 }
 h5 {
-  line-height: 100px;
+  line-height: 80px;
   margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+
+  #start {
+    font-size: 15px;
+  }
+  .menu {
+    display: none;
+  }
+
+  header h1 {
+    font-size: 50px;
+  }
+  header hr,
+  #portfolio hr,
+  #about hr,
+  #contact-me hr {
+    display: none;
+  }
+
+  #about {
+    height: 700px;
+  }
+  #about p {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+  #start {
+    font-size: 20px;
+  }
+  .menu {
+    display: none;
+  }
+  #about {
+    height: 500px;
+  }
+
 }
