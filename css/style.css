@@ -43,6 +43,14 @@ nav li {
 .menu:hover {
   color: #1ABC9C;
 }
+#display_none_sm_md {
+  font-size: 18px;
+  color: white;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 header {
   background-color: #1ABC9C;
@@ -256,6 +264,7 @@ h5 {
   margin: 0;
 }
 
+
 @media screen and (max-width: 767px) {
 
   #start {
@@ -272,7 +281,13 @@ h5 {
   #portfolio hr,
   #about hr,
   #contact-me hr {
-    display: none;
+    width: 100px;
+  }
+  header i,
+  #portfolio i,
+  #about i,
+  #contact-me i {
+    margin: 0 15px;
   }
 
   #about {
@@ -283,16 +298,30 @@ h5 {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
   #start {
     font-size: 20px;
   }
   .menu {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  #display_none_sm_md {
     display: none;
   }
+
   #about {
     height: 500px;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  #display_none_sm_md {
+    display: none;
   }
 
 }
