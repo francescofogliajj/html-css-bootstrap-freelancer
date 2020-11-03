@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+/* Navbar */
 nav {
   height: 100px;
   background-color: #2C3E50;
@@ -51,11 +52,14 @@ nav li {
   border-radius: 5px;
   cursor: pointer;
 }
+/* /Navbar */
 
+/* Start Bootstrap */
 header {
   background-color: #1ABC9C;
   color: white;
   margin-top: 100px;
+  padding-bottom: 50px;
 }
 header .row {
   text-align: center;
@@ -70,7 +74,7 @@ h1 {
   font-weight: bold;
 }
 header hr {
-  width: 200px;
+  width: 150px;
   border: 3px solid white;
   border-radius: 2px;
   display: inline-block;
@@ -83,26 +87,26 @@ header i {
 header p {
   text-transform: uppercase;
   font-size: 25px;
-  margin-bottom: 50px;
 }
+/* /Start Bootstrap */
 
+/* Portfolio */
 #portfolio {
   text-align: center;
-  margin-bottom: 50px;
+  padding: 50px 0;
 }
 #portfolio h2 {
   text-transform: uppercase;
   font-size: 50px;
   font-weight: bold;
-  margin-top: 50px;
 }
 #portfolio hr {
-  width: 200px;
+  width: 150px;
   border: 3px solid black;
   border-radius: 2px;
   display: inline-block;
 }
-#portfolio i {
+#star_white {
   margin: 0 30px;
   vertical-align: super;
   font-size: 30px;
@@ -112,20 +116,52 @@ header p {
   border-radius: 10px;
 }
 
+.position_relative {
+  position: relative;
+}
+.background_green {
+  height: 100%;
+  width: 100%;
+  background-color: #1ABC9C;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.plus_white {
+  color: white;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  cursor: pointer;
+}
+.position_relative:hover .background_green {
+  opacity: 0.8;
+}
+.position_relative:hover .plus_white {
+  opacity: 1;
+}
+/* /Portfolio */
+
+/* About */
 #about {
-  height: 400px;
   background-color: #1ABC9C;
   text-align: center;
   color: white;
+  padding: 50px 0;
 }
 #about h2 {
   text-transform: uppercase;
   font-size: 50px;
   font-weight: bold;
-  margin-top: 50px;
 }
 #about hr {
-  width: 200px;
+  width: 150px;
   border: 3px solid white;
   border-radius: 2px;
   display: inline-block;
@@ -135,6 +171,7 @@ header p {
   vertical-align: super;
   font-size: 30px;
 }
+
 #about p {
   text-align: left;
   font-size: 20px;
@@ -142,9 +179,9 @@ header p {
 #about a {
   text-decoration: none;
   color: white;
-  border: 1px solid white;
-  padding: 15px;
-  border-radius: 5px;
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 7px;
 }
 #about a:hover {
   background-color: white;
@@ -152,22 +189,25 @@ header p {
 }
 #about i {
   font-size: 20px;
+  margin-top: 20px;
 }
 #about span {
   font-size: 20px;
 }
+/* /About */
 
+/* Contact Me */
 #contact-me {
   text-align: center;
+  padding: 50px 0;
 }
 #contact-me h2 {
   text-transform: uppercase;
   font-size: 50px;
   font-weight: bold;
-  margin-top: 50px;
 }
 #contact-me hr {
-  width: 200px;
+  width: 150px;
   border: 3px solid black;
   border-radius: 2px;
   display: inline-block;
@@ -177,56 +217,54 @@ header p {
   vertical-align: super;
   font-size: 30px;
 }
-.write {
-  height: 80px;
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid lightgrey;
+
+.input_field {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0;
+  box-shadow: none;
+  height: 100px;
 }
-#write {
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid lightgrey;
+#input_field {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0;
+  box-shadow: none;
+  resize: none;
+  padding-top: 40px;
 }
-input[placeholder] {
-  color: black;
+#send {
   font-size: 20px;
-}
-textarea[placeholder] {
-  color: black;
-  font-size: 20px;
-  padding-top: 20px;
-}
-button {
-  padding: 10px 20px;
+  padding: 15px 25px;
+  margin: 20px 0;
+  border-radius: 7px;
+  border: 1px solid #1ABC9C;
   background-color: #1ABC9C;
   color: white;
-  font-size: 20px;
-  margin-top: 15px;
-  margin-left: 15px;
-  border-radius: 10px;
-  margin-bottom: 50px;
 }
-button:hover {
+#send:hover {
   background-color: #159A80;
-  color: white;
 }
+/* /Contact Me */
 
+/* Credits */
 #credits {
   background-color: #2C3E50;
   color: white;
   text-align: center;
+  padding: 50px 0;
 }
 #credits h4 {
   text-transform: uppercase;
   font-size: 25px;
   font-weight: bold;
-  margin-top: 50px;
 }
 #credits p {
   font-size: 20px;
-  margin-bottom: 50px;
 }
+
 #credits li {
   list-style: none;
   display: inline-block;
@@ -246,13 +284,16 @@ button:hover {
   background-color: white;
   color: black;
 }
+
 #credits p > a {
   color: #1ABC9C;
 }
 #credits p > a:hover {
   color: #159A80;
 }
+/* /Credits */
 
+/* Footer */
 footer {
   height: 80px;
   background-color: #1A252F;
@@ -263,6 +304,7 @@ h5 {
   line-height: 80px;
   margin: 0;
 }
+/* /Footer */
 
 
 @media screen and (max-width: 767px) {
@@ -277,25 +319,14 @@ h5 {
   header h1 {
     font-size: 50px;
   }
+
   header hr,
   #portfolio hr,
   #about hr,
   #contact-me hr {
     width: 100px;
   }
-  header i,
-  #portfolio i,
-  #about i,
-  #contact-me i {
-    margin: 0 15px;
-  }
 
-  #about {
-    height: 700px;
-  }
-  #about p {
-    margin-bottom: 30px;
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -310,10 +341,6 @@ h5 {
   }
   #display_none_sm_md {
     display: none;
-  }
-
-  #about {
-    height: 500px;
   }
 
 }

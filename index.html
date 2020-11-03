@@ -17,6 +17,7 @@
   </head>
   <body>
 
+    <!-- Navbar -->
     <nav>
       <div class="container">
         <div class="row">
@@ -40,7 +41,9 @@
         </div>
       </div>
     </nav>
+    <!-- /Navbar -->
 
+    <!-- Start Bootstrap -->
     <header>
       <div class="container">
         <div class="row">
@@ -53,15 +56,17 @@
         </div>
       </div>
     </header>
+    <!-- /Start Bootstrap -->
 
     <main>
 
+      <!-- Portfolio -->
       <section id="portfolio">
         <div class="container">
           <div class="row">
             <h2>Portfolio</h2>
             <hr>
-            <i class="fas fa-star"></i>
+            <i id="star_white" class="fas fa-star"></i>
             <hr>
           </div>
         </div>
@@ -69,27 +74,53 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <img src="img/cabin.png" alt="cabin.png" class="img-responsive">
+              <div class="position_relative">
+                <img src="img/cabin.png" alt="cabin.png" class="img-responsive">
+                <div class="background_green"></div>
+                <i class="fas fa-plus plus_white"></i>
+              </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <img src="img/cake.png" alt="cake.png" class="img-responsive">
+              <div class="position_relative">
+                <img src="img/cake.png" alt="cake.png" class="img-responsive">
+                <div class="background_green"></div>
+                <i class="fas fa-plus plus_white"></i>
+              </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <img src="img/circus.png" alt="circus.png" class="img-responsive">
+              <div class="position_relative">
+                <img src="img/circus.png" alt="circus.png" class="img-responsive">
+                <div class="background_green"></div>
+                <i class="fas fa-plus plus_white"></i>
+              </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <img src="img/game.png" alt="game.png" class="img-responsive">
+              <div class="position_relative">
+                <img src="img/game.png" alt="game.png" class="img-responsive">
+                <div class="background_green"></div>
+                <i class="fas fa-plus plus_white"></i>
+              </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <img src="img/safe.png" alt="safe.png" class="img-responsive">
+              <div class="position_relative">
+                <img src="img/safe.png" alt="safe.png" class="img-responsive">
+                <div class="background_green"></div>
+                <i class="fas fa-plus plus_white"></i>
+              </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <img src="img/submarine.png" alt="submarine.png" class="img-responsive">
+              <div class="position_relative">
+                <img src="img/submarine.png" alt="submarine.png" class="img-responsive">
+                <div class="background_green"></div>
+                <i class="fas fa-plus plus_white"></i>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- /Portfolio -->
 
+      <!-- About -->
       <section id="about">
         <div class="container">
 
@@ -116,7 +147,9 @@
 
         </div>
       </section>
+      <!-- /About -->
 
+      <!-- Contact Me -->
       <section id="contact-me">
         <div class="container">
           <div class="row">
@@ -126,21 +159,18 @@
             <hr>
           </div>
 
-          <div class="container">
+          <div class="container text-left">
             <div class="row">
               <div class="col-xs-10 col-xs-offset-1">
 
-                <form class="form-horizontal">
+                <form class="" action="index.html" method="post">
 
-                  <input class="write" type="text" class="form-control" placeholder="Name">
-                  <input class="write" type="email" class="form-control" placeholder="Email Address">
-                  <input class="write" type="tel" class="form-control" placeholder="Phone Number">
+                  <input type="text" class="form-control input_field" placeholder="Name">
+                  <input type="email" class="form-control input_field" placeholder="Email Address">
+                  <input type="tel" class="form-control input_field" placeholder="Phone Number">
+                  <textarea id="input_field" class="form-control" placeholder="Message" rows="10"></textarea>
 
-                  <textarea id="write" placeholder="Message" name="name" rows="8" cols="80"></textarea>
-
-                  <div class="row text-left">
-                    <button type="button" name="button">Send</button>
-                  </div>
+                  <button id="send" class="btn btn-default" type="submit">Send</button>
 
                 </form>
 
@@ -150,7 +180,9 @@
 
         </div>
       </section>
+      <!-- /Contact Me -->
 
+      <!-- Credits -->
       <section id="credits">
         <div class="container">
           <div class="row">
@@ -195,9 +227,11 @@
           </div>
         </div>
       </section>
+      <!-- /Credits -->
 
     </main>
 
+    <!-- Footer -->
     <footer>
       <div class="container">
         <div class="row">
@@ -205,6 +239,7 @@
         </div>
       </div>
     </footer>
+    <!-- /Footer -->
 
   </body>
 </html>
