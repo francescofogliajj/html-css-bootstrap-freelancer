@@ -76,6 +76,7 @@ h1 {
 header hr {
   width: 150px;
   border: 3px solid white;
+  background-color: white;
   border-radius: 2px;
   display: inline-block;
 }
@@ -103,6 +104,7 @@ header p {
 #portfolio hr {
   width: 150px;
   border: 3px solid black;
+  background-color: black;
   border-radius: 2px;
   display: inline-block;
 }
@@ -163,6 +165,7 @@ header p {
 #about hr {
   width: 150px;
   border: 3px solid white;
+  background-color: white;
   border-radius: 2px;
   display: inline-block;
 }
@@ -209,6 +212,7 @@ header p {
 #contact-me hr {
   width: 150px;
   border: 3px solid black;
+  background-color: black;
   border-radius: 2px;
   display: inline-block;
 }
