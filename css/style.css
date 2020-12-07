@@ -223,14 +223,16 @@ header p {
 }
 
 .input_field {
+  font-size: 20px;
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
   border-radius: 0;
-  box-shadow: none;
+  box-shadow: none !important;
   height: 100px;
 }
 #input_field {
+  font-size: 20px;
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
